@@ -12,7 +12,7 @@ import NodelyPage from "./pages/NodelyPage/NodelyMain.tsx";
 
 import "./index.css";
 
-// Configure AWS Amplify
+// Configure AWS Amplify!
 Amplify.configure(outputs);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

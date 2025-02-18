@@ -18,9 +18,12 @@ frontend:
         - nvm install 18.19.0  # Ensure correct Node.js version
         - nvm use 18.19.0
         - node -v  # Verify Node.js version
-        - npm cache clean --force  # Prevent conflicts
-        - npm install --no-audit --legacy-peer-deps --optional  # Ensure optional dependencies
-        - npm run build
+        - npm cache clean --force  # Clear npm cache to prevent conflicts
+        - npm install --no-audit --legacy-peer-deps --optional  # Ensure optional dependencies are installed
+        - npx amplify pipeline-deploy --branch main --app-id d3cquioas91m1q
+
+
+        
   artifacts:
     baseDirectory: dist
     files:
