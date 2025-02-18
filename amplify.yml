@@ -4,8 +4,8 @@ backend:
   phases:
     build:
       commands:
-        - nvm install 18.19.0  # Ensure correct Node.js version
-        - nvm use 18.19.0
+        - nvm install 20.14.0  # Ensure correct Node.js version
+        - nvm use 20.14.0
         - node -v  # Verify Node.js version
         - npm cache clean --force  # Clear npm cache to prevent conflicts
         - npm install --no-audit --legacy-peer-deps --optional  # Ensure optional dependencies are installed
@@ -15,8 +15,8 @@ frontend:
   phases:
     build:
       commands:
-        - nvm install 18.19.0  # Ensure correct Node.js version
-        - nvm use 18.19.0
+        - nvm install 20.14.0  # Ensure correct Node.js version
+        - nvm use 20.14.0
         - node -v  # Verify Node.js version
         - npm cache clean --force  # Prevent conflicts
         - npm install --no-audit --legacy-peer-deps --optional  # Ensure optional dependencies
