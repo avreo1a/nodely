@@ -1,0 +1,16 @@
+/* NavBar.css */
+.floating-navbar {
+    width: 30%;
+    background-color: transparent;
+    border-radius: 8px;
+  }
+  
+  .floating-navbar__toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .floating-navbar__buttons button {
+    margin-left: 8px;
+  }
+  
