@@ -9,7 +9,7 @@ backend:
         - node -v  # Verify Node.js version
         - npm cache clean --force  # Clear npm cache to prevent conflicts
         - npm install --no-audit --legacy-peer-deps --optional  # Ensure optional dependencies are installed
-        - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
+        - npx amplify pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
 
 frontend:
   phases:
