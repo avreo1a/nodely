@@ -15,7 +15,7 @@
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.4.4",
     "@parcel/watcher": "^2.5.1",
-    "aws-amplify": "^6.6.6",
+    "aws-amplify": "^6.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-force-graph": "^1.29.3",
